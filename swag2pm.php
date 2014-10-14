@@ -122,7 +122,7 @@ foreach ($apis->apis as $api) {
         }
 
         // add request data
-        $postman -> setRequestData($data);
+        $postman->setRequestData($data);
 
         // add request
         $postman->addRequest();
