@@ -19,7 +19,6 @@ require_once dirname(__FILE__) . "/UUID/UUID.php";
 // pull in postman class
 require_once dirname(__FILE__) . "/Postman/Postman.php";
 
-
 // create postman object
 $postman = new Postman($argv[2]);
 
@@ -30,7 +29,6 @@ $fetch = file_get_contents(trim($argv[1], '/') . '/');
 if (($apis = json_decode($fetch)) === null) {
     die(sprintf("Error: failed to decode json payload: %s", $fetch) . PHP_EOL);
 }
-
 
 // parse passed url
 $my_parts = parse_url($argv[1]);
