@@ -5,7 +5,6 @@ class PostmanRequest extends Postman {
     public $description;
     public $id;
     public $url;
-    public $pathVariables;
     public $method;
     public $dataMode;
     public $headers;
@@ -26,7 +25,6 @@ class PostmanRequest extends Postman {
         $this->description = isset($request['description']) ? $request['description'] : "";
         $this->id = UUID::v4();
         $this->url = $request['url'];
-        $this->pathVariables = new stdClass();
         $this->method = $request['method'];
 
         switch ($request['method']) {
