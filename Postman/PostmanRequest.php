@@ -51,4 +51,3 @@ class PostmanRequest extends Postman {
         $this->responses = (isset($request['responses']) && is_array($request['responses'])) ? $request['responses'] : array();
     }
 }
-
