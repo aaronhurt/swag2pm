@@ -1,180 +1,180 @@
 {
     "name": "xms",
     "description": "",
-    "id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
-    "timestamp": 1413315358,
+    "id": "846ca747-6b91-49b1-b581-43f2bf266acc",
+    "timestamp": 1413397010,
     "order": [],
     "folders": [
         {
             "name": "array-groups",
             "description": "Array Group Operations",
-            "id": "7328d56b-264f-453e-a281-56c4c1ecad96",
+            "id": "28ef7202-67fe-4c82-8bd7-cad090e7d233",
             "order": [
-                "e71117dc-ae1b-49bf-b28f-71d412be3580",
-                "59aa392e-241b-4a15-b2e0-8f2dff51d34c",
-                "c4acf0a6-6b35-44d8-b15a-37442dbbf52f",
-                "37eeede7-7c85-4f47-b6e2-cb25e3fa5867",
-                "d33811c8-40df-4c4a-a0ae-5d2c75d925d9",
-                "07ccf9b6-5246-436c-8b92-a1c1f225d0ad",
-                "9dd10553-27e5-41fb-ac8e-3cb81ffad7f8",
-                "099222cc-2460-48ea-80dd-07ab4c57a487",
-                "92d2055e-76bd-4dde-9b9f-2a611cb78e99",
-                "c23e0978-a2cd-4eea-9996-fc88cdb6702c",
-                "55e2b9e6-6f29-4c8f-b815-0571edf47945",
-                "b65230eb-809b-4b58-a8c3-ee2306f61fa1"
+                "5038514a-8141-4994-8160-4aabc7e283e5",
+                "52eb5708-46a4-48f5-bd58-2025fa200304",
+                "e9a3bc9b-fce1-4575-bdd9-a8517328613e",
+                "a009ec87-93bb-4719-81e6-e9435678be19",
+                "98f3a8d2-f908-495a-adbc-cb53656a81fb",
+                "2a9a4ca8-e56e-4ba2-99ef-92439591900f",
+                "78abe9aa-9e4d-4b62-9d3b-cd910ce0c4f9",
+                "1f17cf7e-1cd3-488c-b113-8b8b3e5bee21",
+                "7ae1715d-c0a4-40b8-bc46-13a2306dbb62",
+                "5af985de-7b8a-4b6c-b180-29cc3b37dbb9",
+                "3ec9331a-e914-47f5-b327-274d0a3f1f7b",
+                "78cd81c8-a944-4573-8c4b-1744283d7087"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "applications",
             "description": "Application Control Operations",
-            "id": "0437efcb-c6a2-4c96-bc9f-03595fbb31d5",
+            "id": "6d0b64da-e6ce-4750-8d9c-b4765cad2040",
             "order": [
-                "77591878-5b7b-455d-8614-d78a23f6c623",
-                "dad15719-424a-458b-9691-d59851d60800",
-                "88d5f182-590a-43b4-9203-204a5de9ef5f",
-                "7cbf946b-56f3-4781-bffa-9c660698d6c8",
-                "21c34b55-9c2c-47f7-8a09-9f786e533922",
-                "8e050dc3-c4f7-4ea8-8354-cdb4de928a9a"
+                "80e4d6d3-b8c0-44ec-bf98-2c0aaf7b792c",
+                "dfc557d1-a99e-43f4-8d5c-e321e7f7c45c",
+                "ef7abdfe-f6c7-4abe-9da6-9b0af6942624",
+                "240077b8-d12c-4032-8a22-0434a79c2679",
+                "bed07167-d8c2-438a-ba28-db8a0bf4b5fe",
+                "b8616424-e1c2-445b-a86c-8bf7f4488d0d"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "arrays",
             "description": "Array Operations",
-            "id": "ffc016f8-d0a8-4fd6-b022-216c9f8342cb",
+            "id": "dd28b4af-2489-4eef-ad37-f0ceffef68de",
             "order": [
-                "f9611cdb-901c-4947-a600-9b5370e7c57c",
-                "12c9c912-b3ad-4ec4-a532-ab2337c50dd3",
-                "c3914b0f-9a30-4abf-a3a8-a3b9edf62a75",
-                "447a7e42-9e4e-48e2-aa07-6ecf321c0d7f",
-                "6b4a6499-7671-492e-bbc5-24da615af63a",
-                "2d79347f-c01f-48cd-af79-16bbd52e71b9",
-                "676173b3-66c4-42a3-8676-87f58f708c2f",
-                "76a1b810-6900-4475-8cf4-6288843e318c",
-                "48da4eed-e7a3-4293-9afe-9de7e9fdde93",
-                "67036825-fc46-4f2f-9b19-6869e6a85c4d",
-                "640b4b40-eddb-40ef-a8f1-6856a272feda",
-                "657dc096-6107-4f80-9ee6-254773b1216d",
-                "9ba8f4e1-dc24-4db4-a330-59a548e4ba5c",
-                "09df4b56-d362-406c-95b0-85f812b4ca95",
-                "da98823e-0575-4809-a399-6a4c6152cd93"
+                "cfa51a5d-d279-4492-9f85-fa28eb790006",
+                "1ca12745-36b2-4c3b-8c31-da72b6b98049",
+                "9b59c801-9b6a-4cc5-b71e-18f485af1d69",
+                "b6b66e8e-39bf-4e05-a964-939f6e399f18",
+                "39e38a9f-2aca-4cdd-b1b9-20e6f7ae516e",
+                "3b13fe28-f8dd-485a-b36a-96278160153a",
+                "afd4cdf3-78dc-4ab6-ad9b-64238817a293",
+                "34d1d7cc-5ca8-4779-96c3-3db6a780edd0",
+                "2c504d37-b93b-496b-8ba1-9c5d2c492848",
+                "2b19f846-2a25-48cb-a955-05dbd5431253",
+                "153d5fa5-e350-4779-b897-21dcc5544931",
+                "6b3aae70-9a09-4ff7-a01a-d76a60ac8b90",
+                "c02b6292-df80-4257-af02-661286ac5069",
+                "d4a0ddb0-e68c-4ad7-a28c-d9bd8e80d57a",
+                "83230e11-81d1-4be4-9cad-8be128ab3352"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "ssids",
             "description": "SSID Operations",
-            "id": "6bdb2ab3-6d52-4f47-b3fd-8ff5c897a83b",
+            "id": "325c2b9e-626c-48c0-a838-8fc331ca60e2",
             "order": [
-                "435c8c92-0a3a-4db3-bac9-fc8647599150",
-                "076cdac6-0e75-4ff7-8e77-81f2bddbed4a",
-                "44273ccc-2b9f-417b-bcbe-5fc637c0ebf2",
-                "bde3a2a4-b738-4986-bf0f-806f7ee2d1a0"
+                "31e2523a-4769-498d-af15-d5fb94c9b01c",
+                "bb667b17-03ae-4242-a20b-78cd50487478",
+                "37d3c53e-052d-40b8-98c5-574d2a79b8ef",
+                "8d12e731-6070-49c6-bd21-988fc104eff4"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "iaps",
             "description": "Iap Operations",
-            "id": "bb097e76-b9cb-45bf-a119-40298a39df42",
+            "id": "ef389877-5ac6-40c9-bc3c-5bdf510f69a2",
             "order": [
-                "2e3f5241-4cca-4320-991b-a1af570a8ca8",
-                "15e454f2-5a44-4b56-9d10-3748b7ab827d",
-                "5ba252ed-1034-45a5-95c5-dbf41e3dc0db",
-                "2ecc594a-b6fb-4ef1-ab3d-7b101e118de0"
+                "f0182eff-0290-4361-b3c7-3b0e5ad6841a",
+                "0b4f4b5e-0ebc-445d-bb32-9ff02e11f92c",
+                "b17440f5-0320-4afe-996b-91acb2ffcd41",
+                "f55ee10f-0f58-439a-9959-f7a8a56382eb"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "stations",
             "description": "Station Operations",
-            "id": "1fc350db-2cce-4bfc-94d2-6286577a3a18",
+            "id": "dc4a33cb-0f2e-475a-b3b3-b23a5a3d7e37",
             "order": [
-                "bf0486a8-e991-4c1a-8c24-64a7b40edfe7",
-                "03615365-8677-4197-8172-df918b52a734",
-                "79ad877a-60e6-450d-83d7-cdcc5057c755",
-                "0b47f512-485b-472a-8872-c90d79777441",
-                "77414d5e-2e66-45b1-81c7-78491ab0a47e",
-                "38bcaa16-0d13-4db4-94d9-e0515bc2063f",
-                "84336d17-2b34-4615-909b-4e4453552447",
-                "2136d41e-082a-4eae-9ea8-8b12c40811ec",
-                "c6473511-240a-458e-a334-6bbfe570590d",
-                "70dd855d-60d6-4dfa-8c3c-44867fdb5cd6"
+                "d1b31bba-2b38-4b09-9c84-64ef6e9edc7e",
+                "7c138c7e-1c96-48a3-b13b-df732280f0f9",
+                "a6bf61cf-4655-4429-a489-fda75cf23937",
+                "5b776cb3-03e5-44a7-88ff-9a307a16a12f",
+                "1f0fac39-c541-49de-90e9-af0e5f202d7f",
+                "e0f565fa-c802-4d7f-b300-fa3e7f356c32",
+                "b7d6200c-8d4a-4f80-bf3e-ccab8b00daad",
+                "0df58895-aa13-458f-9a70-a532b3ac86ec",
+                "aecd9bf8-2cc6-4afa-bfb4-a536f8a7ff16",
+                "e3bf3e30-6cd9-4add-b0f4-36e298ca06f2"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "images",
             "description": "Provides access to XMS images",
-            "id": "451719d2-2464-4bb6-a544-b74059393dff",
+            "id": "3fa5dbbd-de0a-4499-bc1a-9f8786a3eca6",
             "order": [
-                "30f48c71-2ebf-456d-84f9-9f2d7f8448ea",
-                "14c7d53d-e3dc-420d-bbb3-8eba455ea60d",
-                "b72beaa6-2861-4851-9d92-ac5eeb4346e6"
+                "6b9b3d3b-77b3-4917-b318-acbf38b3844c",
+                "a19c5ea5-1021-4645-9c5e-c137a869213a",
+                "0c54bfc5-2b95-44b3-b066-562c09831c0d"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "maps",
             "description": "Map Operations",
-            "id": "1fa99eb7-778e-4930-bc10-c92c880af6b9",
+            "id": "af212a75-e0d1-438e-9098-d906027350b1",
             "order": [
-                "b00a09ac-4bfc-417c-bd8e-a35103350c2d",
-                "b286cf83-7ced-485f-bfbd-05c0864d21cc",
-                "b73d2baa-a29b-447b-9492-78e2463851d2",
-                "bb5be526-5951-4a44-be80-9e3e112fcf4b",
-                "7e66369e-92fc-4095-b5f8-48f79e62fe25",
-                "ba008b60-f2db-48cd-b7bd-dcd39f0f82ad"
+                "f68df985-e68a-4b8b-9482-84d16f85b1bc",
+                "7013b5ba-6003-424f-a4d4-aeca185b19df",
+                "4dda3a00-d286-460d-9343-ec006c604378",
+                "9c058fb7-b28f-4b05-827c-780b679d7f5d",
+                "d2d3aa7b-9ad6-4c43-8cef-5c9b82cd42c1",
+                "5cbcd52f-694a-42b1-800a-3d1f968957ff"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "profiles",
             "description": "Profile Operations",
-            "id": "667667a6-a412-4b6a-b5b9-75f154719c91",
+            "id": "d8d38df3-2439-4529-831a-50fcea9bc5b6",
             "order": [
-                "8d99c83d-5342-4089-90be-735554326b01",
-                "5504605d-87e7-4c53-a8c0-01f54b1d422c",
-                "e4dbb1e7-00b8-4cfb-b9af-6b1f54403751",
-                "204ef274-3c3f-41cb-b7f8-93b5ccf063c8",
-                "49ebf734-f461-45af-af8e-637ed828074a",
-                "f8600fa0-47b8-4a69-8bc2-6e2414842c17",
-                "fe9456f8-aed4-458e-854c-92d3c7c4572f",
-                "d9b9eb60-8609-4d0b-8644-f0c2f2613d0d",
-                "9e00b062-7022-4827-a22c-6a2d5da4bbd5",
-                "943a2d02-d13b-463b-9dac-aaf110822b15",
-                "6398be76-11e6-4a3b-97d6-634abac49b27",
-                "7187268a-31a3-44b7-a3d4-d3492827b545",
-                "64d8d287-9c8d-47d3-a55f-3cbdc35791da",
-                "5a8d910f-fc30-4634-b473-152b68845649"
+                "4feac87c-3c4a-42b4-bb37-0402e7b1cef6",
+                "a1349a5c-1462-4303-a3a9-4711839876f6",
+                "dd28bc15-206e-46a3-b12a-b396a61257c6",
+                "0fce33bc-b9f6-4293-a6d4-104e71ff8582",
+                "0fe7969e-2fd9-44e6-8324-62349efb104d",
+                "16fa4708-211c-4cc1-9ef0-473e0d4cf45a",
+                "ebdacf00-8a68-46a1-b5db-f16e1cd50361",
+                "5bda8612-b8be-480f-9057-dcf5cd454071",
+                "4dc40cb4-3883-462a-b85e-d05215b5418b",
+                "52e18f73-ce2e-4cd5-a8e2-76f6e797074a",
+                "0540c0bb-fb97-48c0-ad6d-fc53e6997f16",
+                "73bdeea9-274a-4c55-9312-3471a44e49ac",
+                "e7c33f74-fae1-4fc7-a5be-948fa133a553",
+                "e1f8d07d-e6d1-404d-a277-f63547978695"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         },
         {
             "name": "search",
             "description": "Search Operations",
-            "id": "f6f817cd-e78f-4b84-9e5c-f1ca78823791",
+            "id": "58597c87-84e9-42d6-b0f8-0ae4372d7e9b",
             "order": [
-                "bbb3c7aa-c747-44f8-90cd-34e8b11267ef",
-                "d4ef30cd-eb9a-4e99-988d-17312732547d",
-                "b6c359ba-c6d8-43be-9e39-1da7db1c791b",
-                "2bf34676-380f-41a1-9812-7fd67a5bbe11",
-                "6562e136-d087-4b0a-b988-23d62526049b",
-                "0a39aee2-d08d-4de4-abbe-871142d276c3",
-                "fc4bef16-f70e-4e8b-b3fa-175a8c942b02"
+                "b12f68ea-da53-4460-be0c-39937ae8af81",
+                "91ec21ae-d6a1-4ca6-a8d3-41eba405a0c9",
+                "65d8aa83-f272-4416-aecb-4ad981214033",
+                "e3694b9c-f413-42bc-bafa-9013baf42abe",
+                "fb079da5-c088-4a71-aed8-e204e0230309",
+                "55849274-864d-4b5d-a9b7-bc7511c002bc",
+                "dca869de-cae0-4d99-9787-acd53a2cf44d"
             ],
             "collection_name": "xms",
-            "collection_id": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6"
+            "collection_id": "846ca747-6b91-49b1-b581-43f2bf266acc"
         }
     ],
     "synced": false,
@@ -182,2582 +182,1137 @@
         {
             "name": "getArrayGroup",
             "description": "Get Array Group by name\n---\nReturns a single Array Group",
-            "id": "e71117dc-ae1b-49bf-b28f-71d412be3580",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}?",
+            "id": "5038514a-8141-4994-8160-4aabc7e283e5",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getArrayGroups",
             "description": "Get all Array Groups\n---\nReturn a list of Array Groups",
-            "id": "59aa392e-241b-4a15-b2e0-8f2dff51d34c",
+            "id": "52eb5708-46a4-48f5-bd58-2025fa200304",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": [
-                {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            ]
+            "dataMode": "params"
         },
         {
             "name": "getArraysByArrayGroup",
             "description": "Get Arrays by Array Group\n---\nReturns Arrays assigned to this Array Group",
-            "id": "c4acf0a6-6b35-44d8-b15a-37442dbbf52f",
+            "id": "e9a3bc9b-fce1-4575-bdd9-a8517328613e",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/arrays?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationsByArrayGroup",
             "description": "Get stations by Array Group\n---\nReturns a list of stations",
-            "id": "37eeede7-7c85-4f47-b6e2-cb25e3fa5867",
+            "id": "a009ec87-93bb-4719-81e6-e9435678be19",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/stations?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIapsByByArrayGroup",
             "description": "Get Iaps by Array Group\n---\nReturns a list of iaps",
-            "id": "d33811c8-40df-4c4a-a0ae-5d2c75d925d9",
+            "id": "98f3a8d2-f908-495a-adbc-cb53656a81fb",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/iaps?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getSsidsByArrayGroup",
             "description": "Get SSIDs by Array Group\n---\nReturns a list of SSIDs",
-            "id": "07ccf9b6-5246-436c-8b92-a1c1f225d0ad",
+            "id": "2a9a4ca8-e56e-4ba2-99ef-92439591900f",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/ssids?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getAlarmsByArrayGroup",
             "description": "Get alarms by Array Group\n---\nReturns a list of alarms",
-            "id": "9dd10553-27e5-41fb-ac8e-3cb81ffad7f8",
+            "id": "78abe9aa-9e4d-4b62-9d3b-cd910ce0c4f9",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/alarms?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getEventsByArrayGroup",
             "description": "Get events by Array Group\n---\nReturns a list of events",
-            "id": "099222cc-2460-48ea-80dd-07ab4c57a487",
+            "id": "1f17cf7e-1cd3-488c-b113-8b8b3e5bee21",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/events?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIdsEventsByArrayGroup",
             "description": "Get IDS events by Array Group\n---\nReturns a list of IDS events",
-            "id": "92d2055e-76bd-4dde-9b9f-2a611cb78e99",
+            "id": "7ae1715d-c0a4-40b8-bc46-13a2306dbb62",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/ids-events?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getRoguesByArrayGroup",
             "description": "Get rogues by Array Group\n---\nReturns a list of rogues",
-            "id": "c23e0978-a2cd-4eea-9996-fc88cdb6702c",
+            "id": "5af985de-7b8a-4b6c-b180-29cc3b37dbb9",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/rogues?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationAssurancesByArrayGroup",
             "description": "Get station assurance events by Array Group\n---\nReturns a list of station assurance events",
-            "id": "55e2b9e6-6f29-4c8f-b815-0571edf47945",
+            "id": "3ec9331a-e914-47f5-b327-274d0a3f1f7b",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/station-assurance?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getApplicationControlsByArrayGroup",
             "description": "Get application controls by Array Group\n---\nReturns a list of array controls",
-            "id": "b65230eb-809b-4b58-a8c3-ee2306f61fa1",
+            "id": "78cd81c8-a944-4573-8c4b-1744283d7087",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/array-groups.json\/{{array-group-name}}\/application-controls?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getApplications",
             "description": "Get applications\n---\nReturns a list of application controls",
-            "id": "77591878-5b7b-455d-8614-d78a23f6c623",
+            "id": "80e4d6d3-b8c0-44ec-bf98-2c0aaf7b792c",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/applications.json\/?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": [
-                {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            ]
+            "dataMode": "params"
         },
         {
             "name": "getApplicationById",
             "description": "Get application by id\n---\nReturns a unique application control",
-            "id": "dad15719-424a-458b-9691-d59851d60800",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/applications.json\/{{application-id}}?",
+            "id": "dfc557d1-a99e-43f4-8d5c-e321e7f7c45c",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/applications.json\/{{application-id}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getApplicationsByVlanId",
             "description": "Get applications by VLAN(id)\n---\nReturns a list of application controls",
-            "id": "88d5f182-590a-43b4-9203-204a5de9ef5f",
+            "id": "ef7abdfe-f6c7-4abe-9da6-9b0af6942624",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/applications.json\/vlans\/{{vlan-id}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getApplicationsByVlanName",
             "description": "Get applications by VLAN(name)\n---\nReturns a list of application controls",
-            "id": "7cbf946b-56f3-4781-bffa-9c660698d6c8",
+            "id": "240077b8-d12c-4032-8a22-0434a79c2679",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/applications.json\/vlans-names\/{{vlan-name}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getArraysByApplication",
             "description": "Get arrays by application\n---\nReturns a list of arrays",
-            "id": "21c34b55-9c2c-47f7-8a09-9f786e533922",
+            "id": "bed07167-d8c2-438a-ba28-db8a0bf4b5fe",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/applications.json\/{{application-id}}\/arrays?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationsByApplication",
             "description": "Get stations by application\n---\nReturns a list of stations",
-            "id": "8e050dc3-c4f7-4ea8-8354-cdb4de928a9a",
+            "id": "b8616424-e1c2-445b-a86c-8bf7f4488d0d",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/applications.json\/{{application-id}}\/stations?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getArray",
             "description": "Get Array by name\n---\nReturns a single array",
-            "id": "f9611cdb-901c-4947-a600-9b5370e7c57c",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}?",
+            "id": "cfa51a5d-d279-4492-9f85-fa28eb790006",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getArrays",
             "description": "Get all Arrays\n---\nReturns a list of arrays",
-            "id": "12c9c912-b3ad-4ec4-a532-ab2337c50dd3",
+            "id": "1ca12745-36b2-4c3b-8c31-da72b6b98049",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": [
-                {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            ]
+            "dataMode": "params"
         },
         {
             "name": "getStationsByArray",
             "description": "Get stations by Array\n---\nReturns a list of stations",
-            "id": "c3914b0f-9a30-4abf-a3a8-a3b9edf62a75",
+            "id": "9b59c801-9b6a-4cc5-b71e-18f485af1d69",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/stations?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getArraysByStatus",
             "description": "Get all Arrays by status (up or down)\n---\nReturns a list of arrays",
-            "id": "447a7e42-9e4e-48e2-aa07-6ecf321c0d7f",
+            "id": "b6b66e8e-39bf-4e05-a964-939f6e399f18",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/status\/{{status}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIapsByArray",
             "description": "Get Iaps by array\n---\nReturns a list of iaps",
-            "id": "6b4a6499-7671-492e-bbc5-24da615af63a",
+            "id": "39e38a9f-2aca-4cdd-b1b9-20e6f7ae516e",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/iaps?sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "2": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getSsidsByArray",
             "description": "Get SSIDs by array\n---\nReturns a list of SSIDs",
-            "id": "2d79347f-c01f-48cd-af79-16bbd52e71b9",
+            "id": "3b13fe28-f8dd-485a-b36a-96278160153a",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/ssids?sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "2": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getAlarmsByArray",
             "description": "Get alarms by array\n---\nReturns a list of alarms",
-            "id": "676173b3-66c4-42a3-8676-87f58f708c2f",
+            "id": "afd4cdf3-78dc-4ab6-ad9b-64238817a293",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/alarms?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getEventsByArray",
             "description": "Get events by array\n---\nReturns a list of events",
-            "id": "76a1b810-6900-4475-8cf4-6288843e318c",
+            "id": "34d1d7cc-5ca8-4779-96c3-3db6a780edd0",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/events?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIdsEventsByArray",
             "description": "Get IDS events by array\n---\nReturns a list of IDS events",
-            "id": "48da4eed-e7a3-4293-9afe-9de7e9fdde93",
+            "id": "2c504d37-b93b-496b-8ba1-9c5d2c492848",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/ids-events?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getRoguesByArray",
             "description": "Get rogues by array\n---\nReturns a list of rogues",
-            "id": "67036825-fc46-4f2f-9b19-6869e6a85c4d",
+            "id": "2b19f846-2a25-48cb-a955-05dbd5431253",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/rogues?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationAssurancesByArray",
             "description": "Get station assurance events by array\n---\nReturns a list of station assurance events",
-            "id": "640b4b40-eddb-40ef-a8f1-6856a272feda",
+            "id": "153d5fa5-e350-4779-b897-21dcc5544931",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/station-assurance?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getSystemInfoByArray",
             "description": "Get array system information\n---\nReturns array's system information",
-            "id": "657dc096-6107-4f80-9ee6-254773b1216d",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/system-information?",
+            "id": "6b3aae70-9a09-4ff7-a01a-d76a60ac8b90",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/system-information",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getApplicationControlsByArray",
             "description": "Get application controls by array\n---\nReturns a list of array controls",
-            "id": "9ba8f4e1-dc24-4db4-a330-59a548e4ba5c",
+            "id": "c02b6292-df80-4257-af02-661286ac5069",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/application-controls?sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "2": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getGroupsByArray",
             "description": "Get array groups by array\n---\nReturns a list of array groups",
-            "id": "09df4b56-d362-406c-95b0-85f812b4ca95",
+            "id": "d4a0ddb0-e68c-4ad7-a28c-d9bd8e80d57a",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/groups?sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "2": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getPogeByArray",
             "description": "Get PoGE by array\n---\nReturns PoGE",
-            "id": "da98823e-0575-4809-a399-6a4c6152cd93",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/poge?",
+            "id": "83230e11-81d1-4be4-9cad-8be128ab3352",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/arrays.json\/{{array-name}}\/poge",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getSsids",
             "description": "get ssids\n---\nReturns a list of ssids at the max of 100",
-            "id": "435c8c92-0a3a-4db3-bac9-fc8647599150",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/ssids.json\/?",
+            "id": "31e2523a-4769-498d-af15-d5fb94c9b01c",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/ssids.json\/",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getSsidByName",
             "description": "get ssid by name\n---\nReturns a single ssid",
-            "id": "076cdac6-0e75-4ff7-8e77-81f2bddbed4a",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/ssids.json\/{{ssid-name}}?",
+            "id": "bb667b17-03ae-4242-a20b-78cd50487478",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/ssids.json\/{{ssid-name}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getArraysBySsid",
             "description": "get arrays by ssid\n---\nReturns a list of arrays",
-            "id": "44273ccc-2b9f-417b-bcbe-5fc637c0ebf2",
+            "id": "37d3c53e-052d-40b8-98c5-574d2a79b8ef",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/ssids.json\/{{ssid-name}}\/arrays?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationsBySsid",
             "description": "get stations by ssid\n---\nReturns a list of stations",
-            "id": "bde3a2a4-b738-4986-bf0f-806f7ee2d1a0",
+            "id": "8d12e731-6070-49c6-bd21-988fc104eff4",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/ssids.json\/{{ssid-name}}\/stations?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIaps",
             "description": "get all iaps\n---\nReturns a list of iaps",
-            "id": "2e3f5241-4cca-4320-991b-a1af570a8ca8",
+            "id": "f0182eff-0290-4361-b3c7-3b0e5ad6841a",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/iaps.json\/?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": [
-                {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            ]
+            "dataMode": "params"
         },
         {
             "name": "getIapsByStatus",
             "description": "get iaps by status (up or down)\n---\nReturns a list of iaps",
-            "id": "15e454f2-5a44-4b56-9d10-3748b7ab827d",
+            "id": "0b4f4b5e-0ebc-445d-bb32-9ff02e11f92c",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/iaps.json\/status\/{{status}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIap",
             "description": "get Iap by iap id\n---\nReturns a single iap",
-            "id": "5ba252ed-1034-45a5-95c5-dbf41e3dc0db",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/iaps.json\/{{iap-id}}?",
+            "id": "b17440f5-0320-4afe-996b-91acb2ffcd41",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/iaps.json\/{{iap-id}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getStationsByIap",
             "description": "get stations by iap\n---\nReturns a list stations",
-            "id": "2ecc594a-b6fb-4ef1-ab3d-7b101e118de0",
+            "id": "f55ee10f-0f58-439a-9959-f7a8a56382eb",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/iaps.json\/{{iap-id}}\/stations?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStation",
             "description": "Get station by name(mac address  of the station)\n---\nReturns a station",
-            "id": "bf0486a8-e991-4c1a-8c24-64a7b40edfe7",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/{{station-name}}?",
+            "id": "d1b31bba-2b38-4b09-9c84-64ef6e9edc7e",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/{{station-name}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getStations",
             "description": "Get all stations\n---\nReturns a list of stations",
-            "id": "03615365-8677-4197-8172-df918b52a734",
+            "id": "7c138c7e-1c96-48a3-b13b-df732280f0f9",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": [
-                {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            ]
+            "dataMode": "params"
         },
         {
             "name": "getStationCount",
             "description": "Get station count (Online\/Unique 24 hours)\n---\nReturns station count",
-            "id": "79ad877a-60e6-450d-83d7-cdcc5057c755",
+            "id": "a6bf61cf-4655-4429-a489-fda75cf23937",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/count?scope=&ssid=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": [
-                {
-                    "name": "scope",
-                    "value": "",
-                    "type": "string"
-                },
-                {
-                    "name": "ssid",
-                    "value": "",
-                    "type": "string"
-                }
-            ]
+            "dataMode": "params"
         },
         {
             "name": "locateStation",
             "description": "Locate station by name(mac address  of the station) on Map\n---\nReturns a station",
-            "id": "0b47f512-485b-472a-8872-c90d79777441",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/{{station-name}}\/locate?",
+            "id": "5b776cb3-03e5-44a7-88ff-9a307a16a12f",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/{{station-name}}\/locate",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getAssoicationHistoryByStation",
             "description": "Get assoication history by station name (mac address of the station)\n---\nReturns a list of assoication history",
-            "id": "77414d5e-2e66-45b1-81c7-78491ab0a47e",
+            "id": "1f0fac39-c541-49de-90e9-af0e5f202d7f",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/{{station-name}}\/associations?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getApplicationControlsByStation",
             "description": "Get application controls by station name (mac address of the station)\n---\nReturns a list of array controls",
-            "id": "38bcaa16-0d13-4db4-94d9-e0515bc2063f",
+            "id": "e0f565fa-c802-4d7f-b300-fa3e7f356c32",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/{{station-name}}\/application-control?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationAssurancesByStation",
             "description": "Get station assurance events by station name (mac address of the station)\n---\nReturns a list of station assurance events",
-            "id": "84336d17-2b34-4615-909b-4e4453552447",
+            "id": "b7d6200c-8d4a-4f80-bf3e-ccab8b00daad",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/{{station-name}}\/station-assurance?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationsByDeviceClass",
             "description": "Get stations by device class\n---\nReturns a list of stations",
-            "id": "2136d41e-082a-4eae-9ea8-8b12c40811ec",
+            "id": "0df58895-aa13-458f-9a70-a532b3ac86ec",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/device-class\/{{device-class}}?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationsByDeviceType",
             "description": "Get stations by device type\n---\nReturns a list of stations",
-            "id": "c6473511-240a-458e-a334-6bbfe570590d",
+            "id": "aecd9bf8-2cc6-4afa-bfb4-a536f8a7ff16",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/device-type\/{{device-type}}?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationsByBand",
             "description": "Get stations by band\n---\nReturns a list of stations",
-            "id": "70dd855d-60d6-4dfa-8c3c-44867fdb5cd6",
+            "id": "e3bf3e30-6cd9-4add-b0f4-36e298ca06f2",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/stations.json\/band\/{{band}}?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getArrayImageByModel",
             "description": "Get the Array image\n---\nReturns the Array image for the given model in byte array.",
-            "id": "30f48c71-2ebf-456d-84f9-9f2d7f8448ea",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/images.json\/arrays\/{{ports}}?",
+            "id": "6b9b3d3b-77b3-4917-b318-acbf38b3844c",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/images.json\/arrays\/{{ports}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getStationImageByDeviceClass",
             "description": "Get the station image\n---\nReturns the station image in byte array for the given device class (Notebook, Phone, Tablet, Array, Player, Game, etc...).",
-            "id": "14c7d53d-e3dc-420d-bbb3-8eba455ea60d",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/images.json\/stations\/{{deviceclass}}?",
+            "id": "a19c5ea5-1021-4645-9c5e-c137a869213a",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/images.json\/stations\/{{deviceclass}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getRogueImage",
             "description": "Get the rogue image\n---\nReturns the rogue image in byte array.",
-            "id": "b72beaa6-2861-4851-9d92-ac5eeb4346e6",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/images.json\/rogues?",
+            "id": "0c54bfc5-2b95-44b3-b066-562c09831c0d",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/images.json\/rogues",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getMap",
             "description": "Get detailed map object by map id\n---\nReturns a single map",
-            "id": "b00a09ac-4bfc-417c-bd8e-a35103350c2d",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/{{mapId}}?",
+            "id": "f68df985-e68a-4b8b-9482-84d16f85b1bc",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/{{mapId}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getMapTree",
             "description": "Get map tree\n---\nReturns a hierarchical tree of all maps starting at the root",
-            "id": "b286cf83-7ced-485f-bfbd-05c0864d21cc",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/?",
+            "id": "7013b5ba-6003-424f-a4d4-aeca185b19df",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "locateAllStations",
             "description": "Locates stations on a map\n---\nReturns a list of stations located on the specified map. Locate a maximum of 500 stations. Locating more than 100 station might impact the performance.",
-            "id": "b73d2baa-a29b-447b-9492-78e2463851d2",
+            "id": "4dda3a00-d286-460d-9343-ec006c604378",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/{{mapId}}\/stations?noOfStation=100",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "noOfStation",
-                    "value": "100",
-                    "type": "int"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "locateAllRogues",
             "description": "Locates rogues on a map\n---\nReturns a list of rogues located on the specified map.  Locates a maximum of 100 rogues.",
-            "id": "bb5be526-5951-4a44-be80-9e3e112fcf4b",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/{{mapId}}\/rogues?",
+            "id": "9c058fb7-b28f-4b05-827c-780b679d7f5d",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/{{mapId}}\/rogues",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "renderHeatMapById",
             "description": "Get heat map by id\n---\nReturns a url to retrieve the heat map image",
-            "id": "7e66369e-92fc-4095-b5f8-48f79e62fe25",
+            "id": "d2d3aa7b-9ad6-4c43-8cef-5c9b82cd42c1",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/{{mapId}}\/heatmap?floorplanVisible=1&contourVisible=1&minRSSI=-100",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "floorplanVisible",
-                    "value": "1",
-                    "type": "boolean"
-                },
-                "2": {
-                    "name": "contourVisible",
-                    "value": "1",
-                    "type": "boolean"
-                },
-                "3": {
-                    "name": "minRSSI",
-                    "value": "-100",
-                    "type": "int"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "renderHeatMapByMap",
             "description": "Get heat map by map object.\n---\nReturns a url to retrieve the heat map image.  This method is useful for generating a heat map from a modified map object without requiring the map object to be saved: for example, if you want to see the predicted coverage if you moved the location of an array.",
-            "id": "ba008b60-f2db-48cd-b7bd-dcd39f0f82ad",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/heatmap",
+            "id": "5cbcd52f-694a-42b1-800a-3d1f968957ff",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/maps.json\/heatmap?floorplanVisible=1&contourVisible=1&minRSSI=-100",
             "method": "POST",
-            "dataMode": "raw",
-            "headers": "Content-Type: application\/json\n",
+            "headers": "Content-Type: application\/json",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "rawModeData": "{\"\":\"\",\"floorplanVisible\":\"1\",\"contourVisible\":\"1\",\"minRSSI\":\"-100\"}"
+            "dataMode": "raw",
+            "rawModeData": "{\"\":\"\"}"
         },
         {
             "name": "getProfiles",
             "description": "Get all Profiles\n---\nReturn a list of Profiles",
-            "id": "8d99c83d-5342-4089-90be-735554326b01",
+            "id": "4feac87c-3c4a-42b4-bb37-0402e7b1cef6",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": [
-                {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            ]
+            "dataMode": "params"
         },
         {
             "name": "getProfile",
             "description": "Get Profile by name\n---\nReturns a single Profile",
-            "id": "5504605d-87e7-4c53-a8c0-01f54b1d422c",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}?",
+            "id": "a1349a5c-1462-4303-a3a9-4711839876f6",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getArraysByProfile",
             "description": "Get Arrays by Profile\n---\nReturns Arrays assigned to this Profile",
-            "id": "e4dbb1e7-00b8-4cfb-b9af-6b1f54403751",
+            "id": "dd28bc15-206e-46a3-b12a-b396a61257c6",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/arrays?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationsByProfile",
             "description": "Get stations by Profile\n---\nReturns a list of stations",
-            "id": "204ef274-3c3f-41cb-b7f8-93b5ccf063c8",
+            "id": "0fce33bc-b9f6-4293-a6d4-104e71ff8582",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/stations?timePeriod=0&start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "timePeriod",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "4": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIapsByProfile",
             "description": "Get Iaps by Profile\n---\nReturns a list of iaps",
-            "id": "49ebf734-f461-45af-af8e-637ed828074a",
+            "id": "0fe7969e-2fd9-44e6-8324-62349efb104d",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/iaps?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getSsidsByProfile",
             "description": "Get SSIDs by Profile\n---\nReturns a list of SSIDs",
-            "id": "f8600fa0-47b8-4a69-8bc2-6e2414842c17",
+            "id": "16fa4708-211c-4cc1-9ef0-473e0d4cf45a",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/ssids?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getAlarmsByProfile",
             "description": "Get alarms by Profile\n---\nReturns a list of alarms",
-            "id": "fe9456f8-aed4-458e-854c-92d3c7c4572f",
+            "id": "ebdacf00-8a68-46a1-b5db-f16e1cd50361",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/alarms?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getEventsByProfile",
             "description": "Get events by Profile\n---\nReturns a list of events",
-            "id": "d9b9eb60-8609-4d0b-8644-f0c2f2613d0d",
+            "id": "5bda8612-b8be-480f-9057-dcf5cd454071",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/events?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getIdsEventsByProfile",
             "description": "Get IDS events by Profile\n---\nReturns a list of IDS events",
-            "id": "9e00b062-7022-4827-a22c-6a2d5da4bbd5",
+            "id": "4dc40cb4-3883-462a-b85e-d05215b5418b",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/ids-events?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getRoguesByProfile",
             "description": "Get rogues by Profile\n---\nReturns a list of rogues",
-            "id": "943a2d02-d13b-463b-9dac-aaf110822b15",
+            "id": "52e18f73-ce2e-4cd5-a8e2-76f6e797074a",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/rogues?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getStationAssurancesByProfile",
             "description": "Get station assurance events by Profile\n---\nReturns a list of station assurance events",
-            "id": "6398be76-11e6-4a3b-97d6-634abac49b27",
+            "id": "0540c0bb-fb97-48c0-ad6d-fc53e6997f16",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/station-assurance?start=0&count=0&sortBy=&sortOrder=&fromTime=&toTime=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                },
-                "5": {
-                    "name": "fromTime",
-                    "value": "",
-                    "type": "DateParam"
-                },
-                "6": {
-                    "name": "toTime",
-                    "value": "",
-                    "type": "DateParam"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getApplicationControlsByProfile",
             "description": "Get application controls by Profile\n---\nReturns a list of array controls",
-            "id": "7187268a-31a3-44b7-a3d4-d3492827b545",
+            "id": "73bdeea9-274a-4c55-9312-3471a44e49ac",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/application-controls?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "getProfileAosVersion",
             "description": "Get AOS Version by Profile\n---\nReturns the AOS Version assigned to this Profile",
-            "id": "64d8d287-9c8d-47d3-a55f-3cbdc35791da",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/aos-version?",
+            "id": "e7c33f74-fae1-4fc7-a5be-948fa133a553",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/{{profile-name}}\/aos-version",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "getDefaultProfile",
             "description": "Get default Profile\n---\nReturns the default Profile",
-            "id": "5a8d910f-fc30-4634-b473-152b68845649",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/default?",
+            "id": "e1f8d07d-e6d1-404d-a277-f63547978695",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/profiles.json\/default",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "search",
             "description": "search\n---\nReturns a list of search results",
-            "id": "bbb3c7aa-c747-44f8-90cd-34e8b11267ef",
-            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/{{search-query}}?",
+            "id": "b12f68ea-da53-4460-be0c-39937ae8af81",
+            "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/{{search-query}}",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": []
+            "dataMode": "params"
         },
         {
             "name": "searchForArrays",
             "description": "Search arrays\n---\nReturns a list of arrays. Searchable fields are: hostname, groupName, location, gig1 ethIPAddress, gig2 ethIPAddress, ipAddress, softwareVersion, gig1 interfaceMAC, gig2 interfaceMAC, serial, systemLicenseKey, name",
-            "id": "d4ef30cd-eb9a-4e99-988d-17312732547d",
+            "id": "91ec21ae-d6a1-4ca6-a8d3-41eba405a0c9",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/arrays\/{{search-query}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "searchForArrayGroups",
             "description": "Search array groups\n---\nReturns a list of array groups. Searchable field is: name",
-            "id": "b6c359ba-c6d8-43be-9e39-1da7db1c791b",
+            "id": "65d8aa83-f272-4416-aecb-4ad981214033",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/array-groups\/{{search-query}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "searchForStations",
             "description": "Search stations\n---\nReturns a list of stations. Searchable fields are: stationMacAddress, stationHostName, deviceType, deviceClass, manufacturer, userName, ssid, netbiosName, ipaddress",
-            "id": "2bf34676-380f-41a1-9812-7fd67a5bbe11",
+            "id": "e3694b9c-f413-42bc-bafa-9013baf42abe",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/stations\/{{search-query}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "searchForRogues",
             "description": "Search rogues\n---\nReturns a list of rogues. Searchable fields are: bssid, ssid, manufacturer",
-            "id": "6562e136-d087-4b0a-b988-23d62526049b",
+            "id": "fb079da5-c088-4a71-aed8-e204e0230309",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/rogues\/{{search-query}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "searchForSsids",
             "description": "Search SSIDs\n---\nReturns a list of SSIDs. Searchable field is: ssidName",
-            "id": "0a39aee2-d08d-4de4-abbe-871142d276c3",
+            "id": "55849274-864d-4b5d-a9b7-bc7511c002bc",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/ssids\/{{search-query}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         },
         {
             "name": "searchForNetworks",
             "description": "Search profiles\n---\nReturns a list of profiles. Searchable field is: name",
-            "id": "fc4bef16-f70e-4e8b-b3fa-175a8c942b02",
+            "id": "dca869de-cae0-4d99-9787-acd53a2cf44d",
             "url": "https:\/\/172.27.3.47:9443\/api\/v1\/search.json\/profiles\/{{search-query}}?start=0&count=0&sortBy=&sortOrder=",
             "method": "GET",
-            "dataMode": "params",
             "headers": "",
             "version": 2,
             "tests": "",
-            "time": 1413315358,
-            "collectionId": "02f5a15b-5909-4c77-b7b9-9a62c7ecf2e6",
+            "time": 1413397010,
+            "collectionId": "846ca747-6b91-49b1-b581-43f2bf266acc",
             "responses": [],
-            "data": {
-                "1": {
-                    "name": "start",
-                    "value": 0,
-                    "type": "int"
-                },
-                "2": {
-                    "name": "count",
-                    "value": 0,
-                    "type": "int"
-                },
-                "3": {
-                    "name": "sortBy",
-                    "value": "",
-                    "type": "string"
-                },
-                "4": {
-                    "name": "sortOrder",
-                    "value": "",
-                    "type": "string"
-                }
-            }
+            "dataMode": "params"
         }
     ]
 }

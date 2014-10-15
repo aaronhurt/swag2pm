@@ -9,6 +9,7 @@ class Postman {
     protected $_collection;
     protected $_folder;
     protected $_request;
+    protected $_headers;
 
     public function getCollection() {
         if (!isset($this->_collection)) {
@@ -54,29 +55,55 @@ class Postman {
         if (!isset($this->_request)) {
             throw new PostmanException(NO_ACTIVE_REQUEST_MSG, NO_ACTIVE_REQUEST);
         }
-        $temps = array();
-        switch ($this->_request->dataMode) {
-            case "raw":
-                foreach ($data as $d) {
-                    $temps[$d['name']] = $d['value'];
-                }
-                $this->_request->rawModeData = json_encode($temps);
-            break;
-            case "params":
-                foreach ($data as $k => $d) {
+        $q_data = array();
+        $b_data = array();
+        $f_data = array();
+        foreach ($data as $d) {
+            switch (strtolower($d['ptype'])) {
+                case "path":
                     if (preg_match('/\{'.$d['name'].'\}/i', $this->_request->url)) {
                         $this->_request->url = str_replace('{'.$d['name'].'}', '{{'.$d['name'].'}}', $this->_request->url);
-                        unset($data[$k]);
-                        continue;
                     }
-                    $temps[$d['name']] = $d['value'];
-                }
-                $this->_request->data = $data;
-                $this->_request->url = sprintf("%s?%s", $this->_request->url, http_build_query($temps));
-            break;
-            default:
-                throw new PostmanException(sprintf(UNKNOWN_DATA_MODE_MSG, $this->_request->dataMode), UNKNOWN_DATA_MODE);
-            break;
+                break;
+                case "query":
+                    $q_data[$d['name']] = $d['value'];
+                break;
+                case "body":
+                    $b_data[$d['name']] = $d['value'];
+                break;
+                case "form":
+                    switch (strtolower($d['dtype'])) {
+                        case "file":
+                            $type = "file";
+                        break;
+                        default:
+                            $type = "text";
+                        break;
+                    }
+                    $f_data[] = array(
+                        'name' => $d['name'],
+                        'type' => $type,
+                        'value' => empty($d['value']) ? '{{'.$d['name'].'}}' : $d['value']
+                    );
+                break;
+                default:
+                    throw new PostmanException(sprintf(UNKNOWN_PARAM_TYPE_MSG, $d['ptype']), UNKNOWN_PARAM_TYPE);
+                break;
+            }
+        }
+        if (count($b_data)) {
+            $this->_request->dataMode = "raw";
+            $this->_headers['Content-Type'] = "application/json";
+            $this->_request->rawModeData = json_encode($b_data);
+        }
+        if (count($q_data)) {
+            $this->_request->url = sprintf("%s?%s", $this->_request->url, http_build_query($q_data));
+        }
+        if (count($f_data)) {
+            $this->_request->data = $f_data;
+        }
+        if (!isset($this->_request->dataMode)) {
+            $this->_request->dataMode = "params";
         }
     }
 
@@ -88,6 +115,16 @@ class Postman {
             throw new PostmanException(NO_ACTIVE_REQUEST_MSG, NO_ACTIVE_REQUEST);
         }
         $this->_folder->order[] = $this->_request->id;
+        if (count($this->_headers)) {
+            foreach ($this->_headers as $key => $val) {
+                if (isset($this->_request->headers) && !empty($this->_request->headers)) {
+                    $this->_request->headers = sprintf("%s\n%s: %s", $this->_request->headers, $key, $val);
+                } else {
+                    $this->_request->headers = sprintf("%s: %s", $key, $val);
+                }
+            }
+            $this->_headers = array();
+        }
         $this->_collection->requests[] = $this->_request;
         unset($this->_request);
     }
@@ -97,8 +134,7 @@ class Postman {
     }
 
     public function __construct($name, $description = "") {
-        $this->_activeFolder = false;
-        $this->_activeRequest = false;
+        $this->_headers = array();
         $this->_collection = new PostmanCollection($name, $description);
     }
 }

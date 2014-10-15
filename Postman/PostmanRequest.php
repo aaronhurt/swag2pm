@@ -6,7 +6,6 @@ class PostmanRequest extends Postman {
     public $id;
     public $url;
     public $method;
-    public $dataMode;
     public $headers;
     public $version;
     public $tests;
@@ -26,23 +25,8 @@ class PostmanRequest extends Postman {
         $this->id = UUID::v4();
         $this->url = $request['url'];
         $this->method = $request['method'];
-
-        switch ($request['method']) {
-            case "POST":
-                $this->dataMode = "raw";
-                $this->headers = "Content-Type: application/json\n";
-            break;
-            default:
-                $this->dataMode = "params";
-                $this->headers = "";
-            break;
-        }
-
-        if (isset($request['data']) && is_array($request['data']) && count($request['data'])) {
-            $this->data = $request['data'];
-        }
-
-        $this->version = isset($request['version']) ? $request['version'] : 2;
+        $this->headers = "";
+        $this->version = 2;
         $this->tests = isset($request['tests']) ? $request['tests'] : "";
         $this->time = $collection->timestamp;
         $this->collectionId = $collection->id;

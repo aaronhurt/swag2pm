@@ -26,8 +26,8 @@ define("ACTIVE_REQUEST_MSG", "Please add your existing active request using addR
 define("NO_ACTIVE_REQUEST", 1005);
 define("NO_ACTIVE_REQUEST_MSG", "You must have an active request before using this command.  Please create one using the newRequest() method.");
 
-define("UNKNOWN_DATA_MODE", 1006);
-define("UNKNOWN_DATA_MODE_MSG", "Unknown data mode (%s) encountered while processing request.");
+define("UNKNOWN_PARAM_TYPE", 1006);
+define("UNKNOWN_PARAM_TYPE_MSG", "Unknown paramater type (%s) encountered while processing request.");
 
 define("JSON_ENCODE_ERROR", 1007);
 define("JSON_ENCODE_ERROR_MSG", "Error encoding json payload.");

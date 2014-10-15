@@ -71,7 +71,14 @@ foreach ($apis->apis as $api) {
     // loop through apis in path
     foreach ($path->apis as $papi) {
         // build description
-        $description = $papi->description;
+        if (isset($papi->description)) {
+            $description = $papi->description;
+        } else if (isset($papi->summary)) {
+            $description = $papi->summary;
+        } else {
+            $description = "";
+        }
+        // append notes if found
         if (isset($papi->notes)) {
             $description = sprintf("%s\n---\n%s", $description, $papi->notes);
         }
@@ -79,13 +86,21 @@ foreach ($apis->apis as $api) {
         if (!$postman->activeFolder()) {
             $postman->newFolder(basename($api->path), $description);
         }
-
         // create request if needed
         if (!$postman->activeRequest()) {
             // build description
             $description = $papi->operations[0]->summary;
+            // append notes if present
             if (isset($papi->operations[0]->notes)) {
                  $description = sprintf("%s\n---\n%s", $description, $papi->operations[0]->notes);
+            }
+            // get method
+            if (isset($papi->operations[0]->httpMethod)) {
+                $method = $papi->operations[0]->httpMethod;
+            } else if (isset($papi->operations[0]->method)) {
+                $method = $papi->operations[0]->method;
+            } else {
+                $method = "";
             }
             // getenerate and init request object
             $postman->newRequest(
@@ -94,7 +109,7 @@ foreach ($apis->apis as $api) {
                     'description' => $description,
                     'url' => simple_build_url(array_merge($my_parts,
                         array('path' => join_paths(array(dirname($my_parts['path']), str_replace('{format}', 'json', $papi->path)))))),
-                    'method' => $papi->operations[0]->httpMethod,
+                    'method' => $method,
                 )
             );
         }
@@ -109,13 +124,24 @@ foreach ($apis->apis as $api) {
                 $param = $papi->operations[0]->parameters[$x];
                 // build data
                 $data[$x]['name'] = $param->name;
-                if (strcasecmp($param->dataType, 'int') == 0) {
+                // get type
+                if (isset($param->dataType)) {
+                    $type = $param->dataType;
+                } else if (isset($param->type)) {
+                    $type = $param->type;
+                } else {
+                    $type = 'unknown';
+                }
+                // set default
+                if (strcasecmp($type, 'int') == 0) {
                     $default = 0;
                 } else {
                     $default = "";
                 }
+                // finish data
                 $data[$x]['value'] = (!isset($param->defaultValue) || ($param->defaultValue == 'null')) ? $default : $param->defaultValue;
-                $data[$x]['type'] = $param->dataType;
+                $data[$x]['dtype'] = $type;
+                $data[$x]['ptype'] = (isset($param->paramType)) ? $param->paramType : 'unknown';
             }
         }
 
