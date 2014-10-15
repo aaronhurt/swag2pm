@@ -1,0 +1,252 @@
+{
+    "name": "petstore",
+    "description": "",
+    "id": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+    "timestamp": 1413397006,
+    "order": [],
+    "folders": [
+        {
+            "name": "pet",
+            "description": "",
+            "id": "c5c12917-98c9-4a62-b64b-e287a265b906",
+            "order": [
+                "16e2d35b-c0a0-4f13-8e7e-197719c856e6",
+                "b5f265cd-7dac-4a4d-bbac-ecda0ff34ab9",
+                "76b88ec3-cb6d-41e6-98a5-97302d8a0404",
+                "6b8b82e7-ed43-4fb0-90c7-1b776d1481e9",
+                "7b5fbcf9-cbbb-42d6-bdb2-aff282c34010"
+            ],
+            "collection_name": "petstore",
+            "collection_id": "93c2d765-7488-4f47-bf4f-c423ecd841e0"
+        },
+        {
+            "name": "user",
+            "description": "",
+            "id": "4c3a50b8-faea-4245-9ad2-30e5299fc8b4",
+            "order": [
+                "36976e81-5444-4018-92ad-56e53b51a053",
+                "4b6d5a66-c8d7-4c52-99a1-9669bf712ebd",
+                "db4d2597-0ecb-4d6a-9a01-13ba8ac6ef98",
+                "569b51d2-e318-4a46-bccc-e1d250daee48",
+                "6751d2fe-6a23-4bcd-92f2-3cf077adbf73",
+                "989bd49d-5f04-4684-93b4-32dd1d34259a"
+            ],
+            "collection_name": "petstore",
+            "collection_id": "93c2d765-7488-4f47-bf4f-c423ecd841e0"
+        },
+        {
+            "name": "store",
+            "description": "",
+            "id": "bfc43d28-00d6-4db1-85a7-ab054b3446a9",
+            "order": [
+                "48c2ee0c-214a-4c9d-aa80-7d8ba6bb9389",
+                "461b1c82-fcaa-4230-b482-144cf870e7ce"
+            ],
+            "collection_name": "petstore",
+            "collection_id": "93c2d765-7488-4f47-bf4f-c423ecd841e0"
+        }
+    ],
+    "synced": false,
+    "requests": [
+        {
+            "name": "deletePet",
+            "description": "Deletes a pet\n---\n",
+            "id": "16e2d35b-c0a0-4f13-8e7e-197719c856e6",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/pet\/{{petId}}",
+            "method": "DELETE",
+            "headers": "",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "params"
+        },
+        {
+            "name": "addPet",
+            "description": "Add a new pet to the store\n---\n",
+            "id": "b5f265cd-7dac-4a4d-bbac-ecda0ff34ab9",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/pet",
+            "method": "POST",
+            "headers": "Content-Type: application\/json",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "raw",
+            "rawModeData": "{\"body\":\"\"}"
+        },
+        {
+            "name": "findPetsByStatus",
+            "description": "Finds Pets by status\n---\nMultiple status values can be provided with comma seperated strings",
+            "id": "76b88ec3-cb6d-41e6-98a5-97302d8a0404",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/pet\/findByStatus?status=available",
+            "method": "GET",
+            "headers": "",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "params"
+        },
+        {
+            "name": "findPetsByTags",
+            "description": "Finds Pets by tags\n---\nMuliple tags can be provided with comma seperated strings. Use tag1, tag2, tag3 for testing.",
+            "id": "6b8b82e7-ed43-4fb0-90c7-1b776d1481e9",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/pet\/findByTags?tags=",
+            "method": "GET",
+            "headers": "",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "params"
+        },
+        {
+            "name": "uploadFile",
+            "description": "uploads an image\n---\n",
+            "id": "7b5fbcf9-cbbb-42d6-bdb2-aff282c34010",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/pet\/uploadImage",
+            "method": "POST",
+            "headers": "",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "data": [
+                {
+                    "name": "additionalMetadata",
+                    "type": "text",
+                    "value": "{{additionalMetadata}}"
+                },
+                {
+                    "name": "file",
+                    "type": "file",
+                    "value": "{{file}}"
+                }
+            ],
+            "dataMode": "params"
+        },
+        {
+            "name": "createUser",
+            "description": "Create user\n---\nThis can only be done by the logged in user.",
+            "id": "36976e81-5444-4018-92ad-56e53b51a053",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/user",
+            "method": "POST",
+            "headers": "Content-Type: application\/json",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "raw",
+            "rawModeData": "{\"body\":\"\"}"
+        },
+        {
+            "name": "createUsersWithArrayInput",
+            "description": "Creates list of users with given input array\n---\n",
+            "id": "4b6d5a66-c8d7-4c52-99a1-9669bf712ebd",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/user\/createWithArray",
+            "method": "POST",
+            "headers": "Content-Type: application\/json",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "raw",
+            "rawModeData": "{\"body\":\"\"}"
+        },
+        {
+            "name": "createUsersWithListInput",
+            "description": "Creates list of users with given list input\n---\n",
+            "id": "db4d2597-0ecb-4d6a-9a01-13ba8ac6ef98",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/user\/createWithList",
+            "method": "POST",
+            "headers": "Content-Type: application\/json",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "raw",
+            "rawModeData": "{\"body\":\"\"}"
+        },
+        {
+            "name": "updateUser",
+            "description": "Updated user\n---\nThis can only be done by the logged in user.",
+            "id": "569b51d2-e318-4a46-bccc-e1d250daee48",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/user\/{{username}}",
+            "method": "PUT",
+            "headers": "Content-Type: application\/json",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "raw",
+            "rawModeData": "{\"body\":\"\"}"
+        },
+        {
+            "name": "loginUser",
+            "description": "Logs user into the system\n---\n",
+            "id": "6751d2fe-6a23-4bcd-92f2-3cf077adbf73",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/user\/login?username=&password=",
+            "method": "GET",
+            "headers": "",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "params"
+        },
+        {
+            "name": "logoutUser",
+            "description": "Logs out current logged in user session\n---\n",
+            "id": "989bd49d-5f04-4684-93b4-32dd1d34259a",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/user\/logout",
+            "method": "GET",
+            "headers": "",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "params"
+        },
+        {
+            "name": "placeOrder",
+            "description": "Place an order for a pet\n---\n",
+            "id": "48c2ee0c-214a-4c9d-aa80-7d8ba6bb9389",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/store\/order",
+            "method": "POST",
+            "headers": "Content-Type: application\/json",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "raw",
+            "rawModeData": "{\"body\":\"\"}"
+        },
+        {
+            "name": "deleteOrder",
+            "description": "Delete purchase order by ID\n---\nFor valid response try integer IDs with value < 1000.  Anything above 1000 or nonintegers will generate API errors",
+            "id": "461b1c82-fcaa-4230-b482-144cf870e7ce",
+            "url": "http:\/\/petstore.swagger.wordnik.com\/api\/store\/order\/{{orderId}}",
+            "method": "DELETE",
+            "headers": "",
+            "version": 2,
+            "tests": "",
+            "time": 1413397006,
+            "collectionId": "93c2d765-7488-4f47-bf4f-c423ecd841e0",
+            "responses": [],
+            "dataMode": "params"
+        }
+    ]
+}
