@@ -58,6 +58,7 @@ class Postman {
         $q_data = array();
         $b_data = array();
         $f_data = array();
+        $h_data = array();
         foreach ($data as $d) {
             switch (strtolower($d['ptype'])) {
                 case "path":
@@ -86,6 +87,9 @@ class Postman {
                         'value' => empty($d['value']) ? '{{'.$d['name'].'}}' : $d['value']
                     );
                 break;
+                case "header":
+                    $h_data[$d['name']] = $d['value'];
+                break;
                 default:
                     throw new PostmanException(sprintf(UNKNOWN_PARAM_TYPE_MSG, $d['ptype']), UNKNOWN_PARAM_TYPE);
                 break;
@@ -93,14 +97,29 @@ class Postman {
         }
         if (count($b_data)) {
             $this->_request->dataMode = "raw";
-            $this->_headers['Content-Type'] = "application/json";
-            $this->_request->rawModeData = json_encode($b_data);
+            $this->_headers['Content-Type'] = ($this->_request->_consumes != "") ? $this->_request->_consumes : 'application/json';
+            switch(strtolower($this->_request->_consumes)) {
+                case "application/json":
+                    $this->_request->rawModeData = json_encode($b_data);
+                break;
+                case "application/xml":
+                    $this->_request->rawModeData = xmlrpc_encode($b_data);
+                break;
+                case "text/plain":
+                    $this->_request->rawModeData = isset($b_data['body']) ? $b_data['body'] : "";
+                break;
+            }
         }
         if (count($q_data)) {
             $this->_request->url = sprintf("%s?%s", $this->_request->url, http_build_query($q_data));
         }
         if (count($f_data)) {
             $this->_request->data = $f_data;
+        }
+        if (count($h_data)) {
+            foreach ($h_data as $k => $v) {
+                $this->_headers[$k] = $v;
+            }
         }
         if (!isset($this->_request->dataMode)) {
             $this->_request->dataMode = "params";

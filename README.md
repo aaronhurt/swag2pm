@@ -3,6 +3,7 @@ swag2pm
 
 This little script and class collection *should* generate [Postman](https://github.com/a85/POSTMan-Chrome-Extension/)
 collections from [Swagger](https://github.com/wordnik/swagger-spec) api documentation feeds.
+Currently only the 1.2 specification is supported and work on 2.0 is only being conducted in my spare time.
 
 Example:
 

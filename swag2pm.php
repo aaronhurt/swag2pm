@@ -26,17 +26,24 @@ $postman = new Postman($argv[2]);
 $fetch = file_get_contents(trim($argv[1], '/') . '/');
 
 // decode and check return
-if (($apis = json_decode($fetch)) === null) {
+if (($swagger = json_decode($fetch)) === null) {
     die(sprintf("Error: failed to decode json payload: %s", $fetch) . PHP_EOL);
+}
+
+// check version
+if (!isset($swagger->swaggerVersion) || $swagger->swaggerVersion != "1.2") {
+    die("Error: Only Swagger version 1.2 currently supported." . PHP_EOL);
 }
 
 // parse passed url
 $my_parts = parse_url($argv[1]);
 
+// join url paths
 function join_paths(array $paths = array()) {
     return preg_replace('#/+#', '/', join('/', $paths));
 }
 
+// reconstruct url pieces
 function simple_build_url(array $parts = array()) {
     // set scheme
     $scheme = isset($parts['scheme']) ? $parts['scheme'] : 'http';
@@ -53,8 +60,8 @@ function simple_build_url(array $parts = array()) {
 }
 
 // loop through apis
-foreach ($apis->apis as $api) {
-    // get path name
+foreach ($swagger->apis as $api) {
+    // get path
     $path = join_paths(array($my_parts['path'], basename($api->path)));
 
     // build url
@@ -64,23 +71,23 @@ foreach ($apis->apis as $api) {
     $fetch = file_get_contents($url);
 
     // decode and check return
-    if (($path = json_decode($fetch)) === null) {
+    if (($collection = json_decode($fetch)) === null) {
         die(sprintf("Error: failed to decode json payload: %s", $fetch) . PHP_EOL);
     }
 
     // loop through apis in path
-    foreach ($path->apis as $papi) {
+    foreach ($collection->apis as $capi) {
         // build description
-        if (isset($papi->description)) {
-            $description = $papi->description;
-        } else if (isset($papi->summary)) {
-            $description = $papi->summary;
+        if (isset($capi->description)) {
+            $description = $capi->description;
+        } else if (isset($capi->summary)) {
+            $description = $capi->summary;
         } else {
             $description = "";
         }
         // append notes if found
-        if (isset($papi->notes)) {
-            $description = sprintf("%s\n---\n%s", $description, $papi->notes);
+        if (isset($capi->notes)) {
+            $description = sprintf("%s\n---\n%s", $description, $capi->notes);
         }
         // create folder if needed
         if (!$postman->activeFolder()) {
@@ -89,27 +96,33 @@ foreach ($apis->apis as $api) {
         // create request if needed
         if (!$postman->activeRequest()) {
             // build description
-            $description = $papi->operations[0]->summary;
+            $description = $capi->operations[0]->summary;
             // append notes if present
-            if (isset($papi->operations[0]->notes)) {
-                 $description = sprintf("%s\n---\n%s", $description, $papi->operations[0]->notes);
+            if (isset($capi->operations[0]->notes)) {
+                 $description = sprintf("%s\n---\n%s", $description, $capi->operations[0]->notes);
             }
             // get method
-            if (isset($papi->operations[0]->httpMethod)) {
-                $method = $papi->operations[0]->httpMethod;
-            } else if (isset($papi->operations[0]->method)) {
-                $method = $papi->operations[0]->method;
+            if (isset($capi->operations[0]->httpMethod)) {
+                $method = $capi->operations[0]->httpMethod;
+            } else if (isset($capi->operations[0]->method)) {
+                $method = $capi->operations[0]->method;
             } else {
                 $method = "";
             }
-            // getenerate and init request object
+            if (isset($collection->basePath) && $collection->basePath != "") {
+                $url = simple_build_url(array_merge(parse_url($collection->basePath),
+                    array('path' => str_replace('{format}', 'json', $capi->path))));
+            } else {
+                $url = simple_build_url(array_merge($my_parts,
+                    array('path' => str_replace('{format}', 'json', $capi->path))));
+            }
             $postman->newRequest(
                 array(
-                    'name' => $papi->operations[0]->nickname,
+                    'name' => $capi->operations[0]->nickname,
+                    'url' => $url,
                     'description' => $description,
-                    'url' => simple_build_url(array_merge($my_parts,
-                        array('path' => join_paths(array(dirname($my_parts['path']), str_replace('{format}', 'json', $papi->path)))))),
                     'method' => $method,
+                    'consumes' => $capi->operations[0]->consumes[0],
                 )
             );
         }
@@ -118,10 +131,10 @@ foreach ($apis->apis as $api) {
         $data = array();
 
         // build data if needed
-        if (isset($papi->operations[0]->parameters) && is_array($papi->operations[0]->parameters) && count($papi->operations[0]->parameters)) {
-            for ($x = 0; $x < count($papi->operations[0]->parameters); $x++) {
+        if (isset($capi->operations[0]->parameters) && is_array($capi->operations[0]->parameters) && count($capi->operations[0]->parameters)) {
+            for ($x = 0; $x < count($capi->operations[0]->parameters); $x++) {
                 // get this param
-                $param = $papi->operations[0]->parameters[$x];
+                $param = $capi->operations[0]->parameters[$x];
                 // build data
                 $data[$x]['name'] = $param->name;
                 // get type

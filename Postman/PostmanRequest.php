@@ -12,6 +12,7 @@ class PostmanRequest extends Postman {
     public $time;
     public $collectionId;
     public $responses;
+    protected $_consumes;
 
     public function __construct(array $request, &$collection) {
         foreach (array('name', 'description', 'url', 'method') as $required) {
@@ -31,5 +32,6 @@ class PostmanRequest extends Postman {
         $this->time = $collection->timestamp;
         $this->collectionId = $collection->id;
         $this->responses = (isset($request['responses']) && is_array($request['responses'])) ? $request['responses'] : array();
+        $this->_consumes = isset($request['consumes']) ? $request['consumes'] : "";
     }
 }
